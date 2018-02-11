@@ -46,8 +46,8 @@
 (defn- build-post-request
   [path body & [opts]]
   (merge (build-base-request "POST" path)
-         {:body (json/write-str body)
-          :content-type :json}
+         {:body (json/json-str body)
+          :content-typoe :json}
          opts))
 
 (defn- build-delete-request

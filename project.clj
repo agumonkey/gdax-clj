@@ -9,5 +9,6 @@
                  [cheshire "5.8.0"]
                  [environ "1.1.0"]
                  [clj-time "0.14.2"]
+                 [org.clojure/data.json "0.2.6"]
                  [org.clojure/data.codec "0.1.1"]]
   :plugins [[lein-environ "1.1.0"]])
